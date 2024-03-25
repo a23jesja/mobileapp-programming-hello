@@ -19,14 +19,15 @@ Programkod ska se ut som exemplet nedan. Koden måste vara korrekt indenterad d�
 function errorCallback(error) {
     switch(error.code) {
         case error.PERMISSION_DENIED:
-            // Geolocation API stöds inte, gör något
+            // Geolocation API stöds inte, gör något annat
             break;
         case error.POSITION_UNAVAILABLE:
-            // Misslyckat positionsanrop, gör något
+            // Misslyckat positionsanrop, gör något annat
             break;
         case error.UNKNOWN_ERROR:
-            // Okänt fel, gör något
+            // Okänt fel, gör något annat
             break;
+            
     }
 }
 ```
